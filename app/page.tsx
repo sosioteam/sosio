@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MyButton from "./components/MyButton";
 
 export default function Home() {
   return (
@@ -108,6 +109,10 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <div className="test">
+      <MyButton text="Primary Button" color="blue" />
+      <MyButton text="Secondary Button" color="red"/>
+    </div>
     </main>
   );
 }
