@@ -1,20 +1,17 @@
-
 import React from 'react';
 import { Button } from '@nextui-org/react';
 
-interface bannerProps {
+interface BannerProps {
   text: string;
-  color?: string;
+  color?: 'default' | 'primary' | 'secondary' | 'success' | 'warning' | 'danger';
 }
 
-const banner: React.FC<bannerProps> = ({ text, color }) => {
-  const bannerStyle = {
-  };
-
+const Banner: React.FC<BannerProps> = ({ text, color = 'default' }) => {
   return (
-    <Button style={bannerStyle}>
+    <Button color={color}>
+      {text}
     </Button>
   );
 }
 
-export default banner;
+export default Banner;
