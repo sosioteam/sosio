@@ -25,13 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-.test{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
