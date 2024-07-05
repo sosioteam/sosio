@@ -1,0 +1,81 @@
+.parallax-img {
+  position: relative;
+  width: 25rem;
+  top: -7.8rem;
+}
+
+.balls-img {
+  position: relative;
+  width: 31rem;
+  top: 1.2rem;
+}
+
+/* Mobil (640px ve altı) */
+@media (max-width: 640px) {
+  .parallax-img {
+    left: -4rem;
+    width: 15rem;
+    top: -3.8rem;
+  }
+  .balls-img {
+    left: -4rem;
+    width: 20rem;
+    top: 0.6rem;
+  }
+}
+
+/* Tablet (641px ila 1024px arası) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .parallax-img {
+    left: -6rem;
+    width: 20rem;
+    top: -5rem;
+  }
+  .balls-img {
+    left: -6rem;
+    width: 25rem;
+    top: 0.8rem;
+  }
+}
+
+/* Masaüstü (1025px ve üzeri) */
+@media (min-width: 1025px) {
+  .parallax-img {
+    left: -12rem;
+    width: 25rem;
+    top: -7.8rem;
+  }
+  .balls-img {
+    left: -8rem;
+    width: 31rem;
+    top: 1.2rem;
+  }
+}
+.phone {
+  background: url('../../public/sosioimg/phone.webp') bottom no-repeat;
+  background-size: contain;
+  height: 450px;
+  position: relative;
+  width: 500px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.phoneScreen {
+  background: url('../../public/sosioimg/dream.webp') center no-repeat;
+  background-size: cover;
+  height: 89.3%;
+  width: 46%;
+  z-index: 2;
+}
+.descriptio-text{
+  align-self: flex-start;
+  color: #fff;
+  font-size: 26px;
+  line-height: 1.4;
+  margin-bottom: 1.4em;
+  max-width: 400px;
+  font-family: poppins-bold;
+}
