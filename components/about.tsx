@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="flex flex-col items-center bg-white text-black w-full h-screen overflow-hidden">
       <div className="w-full md:w-9/12 bg-white h-1/2 flex flex-col items-center justify-center p-4">
-        <h1 className="text-xl md:text-2xl font-bold mb-4 text-center">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-4 text-center">
           Did you know that 2 out of 5 people lie about liking a gift?
         </h1>
         <p className="text-sm md:text-base text-center mx-auto px-2 md:px-6">
