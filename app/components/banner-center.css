@@ -17,3 +17,6 @@
   width: 24%;
   z-index: 2;
 }
+.auto-margin {
+  margin: auto;
+}
