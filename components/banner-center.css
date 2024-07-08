@@ -1,5 +1,5 @@
 .phone {
-  background: url('../../public/sosioimg/phone.webp') bottom no-repeat;
+  background: url('../public/sosioimg/phone.webp') bottom no-repeat;
   background-size: contain;
   height: 450px;
   position: relative;
@@ -11,7 +11,7 @@
 }
 
 .phoneScreen {
-  background: url('../../public/sosioimg/dream.webp') center no-repeat;
+  background: url('../public/sosioimg/dream.webp') center no-repeat;
   background-size: cover;
   height: 89.3%;
   width: 24%;
