@@ -4,7 +4,7 @@ import Image from "next/image";
 const BannerCenter = () => {
   return (
     <div className="w-full md:w-1/3 h-full bg-white flex flex-col justify-between md:justify-center items-center md:order-2">
-      <div className="h-auto logo flex justify-center items-center md:h-1/3 m-auto">
+      <div className="h-auto logo flex justify-center items-center md:h-1/3 m-auto mr-0">
         <Image
           src="/sosioimg/logo.svg"
           alt="logo-img"
