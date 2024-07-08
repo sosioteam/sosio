@@ -12,9 +12,24 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        phone: "url('../public/sosioimg/phone.webp')",
+        phoneScreen: "url('../public/sosioimg/dream.webp')",
+      },
+      height: {
+        "450px": "450px",
+        "89p3": "89.3%",
+      },
+      width: {
+        "500px": "500px",
+        "24p": "24%",
+      },
+      zIndex: {
+        "1": "1",
+        "2": "2",
       },
     },
   },
   plugins: [],
 };
+
 export default config;

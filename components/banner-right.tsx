@@ -1,14 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import "./banner-right.css";
 
 const BannerRight = () => {
   return (
     <div className="hidden md:flex w-1/3 h-full bg-teal-400 flex-col justify-center items-center text-center p-4">
-      <p className="text-white text-lg mb-6 description-text">
+      <p className="text-white text-2xl leading-7 mb-6 max-w-2xl font-poppins-bold">
         Finally. Revolutionary way to give and receive spot-on gifts.
       </p>
-      <p className="text-white text-lg mb-6 description-text">
+      <p className="text-white text-2xl leading-7 mb-6 max-w-2xl font-poppins-bold">
         Gifts that fulfill dreams.
       </p>
       <div className="flex flex-col space-y-4">
