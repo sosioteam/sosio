@@ -1,7 +1,31 @@
 import React from "react";
 import Image from "next/image";
 
-const WeDoCategories = () => {
+const MidSection = () => {
+  return (
+    <div className="flex flex-col md:flex-row items-center bg-white text-black w-full h-auto md:h-[60vh] overflow-hidden">
+      <MidSectionLeft />
+      <MidSectionRight />
+    </div>
+  );
+};
+
+export default MidSection;
+
+const MidSectionLeft = () => {
+  return (
+    <div className="w-full md:w-1/2 h-auto md:h-full bg-white flex flex-col items-center justify-center text-left p-4">
+      <div className="w-[calc(60.66667%-11.66667px)] items-start">
+        <p className="text-gray-600 text-base mb-2">Works like a charm</p>
+        <h1 className="text-black text-2xl md:text-3xl font-bold">
+          A spot-on group gift in a snap to fulfill a dream
+        </h1>
+      </div>
+    </div>
+  );
+};
+
+const MidSectionRight = () => {
   return (
     <div className="flex flex-col w-full md:w-1/2 h-auto md:h-full bg-white items-center justify-center p-4">
       <div className="flex flex-row items-center gap-5">
@@ -55,5 +79,3 @@ const WeDoCategories = () => {
     </div>
   );
 };
-
-export default WeDoCategories;

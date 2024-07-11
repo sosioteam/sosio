@@ -1,13 +1,13 @@
 import Banner from "../components/banner";
 import About from "../components/about";
-import WeDo from "../components/we-do";
+import MidSection from "../components/mid-section";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Banner />
       <About />
-      <WeDo></WeDo>
-    </div>
+      <MidSection />
+    </>
   );
 }
