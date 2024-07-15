@@ -14,6 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         phone: "url('../public/sosioimg/phone.webp')",
         phoneScreen: "url('../public/sosioimg/dream.webp')",
+        colorFullDiv: "url('../public/sosioimg/color-full-div.webp')",
       },
       height: {
         "450px": "450px",
