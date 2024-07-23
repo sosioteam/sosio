@@ -6,8 +6,8 @@ import QuestionHeader from "./question-header";
 const QuestionCenter = () => {
   return (
     <div className="flex h-full flex-col w-full md:w-2/3  mt-10 justify-normal items-start md:items-start p-4 md:p-0">
-      <QuestionHeader></QuestionHeader>
-      <QuestionAnswer></QuestionAnswer>
+      <QuestionHeader />
+      <QuestionAnswer />
     </div>
   );
 };
