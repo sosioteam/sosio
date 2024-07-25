@@ -16,6 +16,12 @@ const config: Config = {
         phoneScreen: "url('../public/sosioimg/dream.webp')",
         colorFullDiv: "url('../public/sosioimg/color-full-div.webp')",
       },
+      translate: {
+        "-321.09": "-321.09px",
+      },
+      willChange: {
+        transform: "transform",
+      },
       height: {
         "450px": "450px",
         "89p3": "89.3%",
@@ -27,6 +33,16 @@ const config: Config = {
       zIndex: {
         "1": "1",
         "2": "2",
+      },
+      animation: {
+        "scroll-up-down": "scrollUpDown 3s linear infinite",
+      },
+      keyframes: {
+        scrollUpDown: {
+          "0%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
+          "100%": { transform: "translateY(0)" },
+        },
       },
     },
   },
