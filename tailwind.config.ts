@@ -1,3 +1,4 @@
+import { CardHeader } from "@nextui-org/react";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,6 +9,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        input: "#00C0B3",
+        cardHeader: "#FDD001",
+        inputFocus: "#00c0b3",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
