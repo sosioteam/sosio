@@ -5,10 +5,10 @@ const About = () => {
   return (
     <div className="flex flex-col items-center bg-white text-black w-full h-[80vh] overflow-hidden">
       <div className="w-full md:w-9/12 bg-white h-1/2 flex flex-col items-center justify-center p-4">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-4 text-center">
+        <h1 className="text-3xl md:text-3xl lg:text-4xl font-extrabold mb-4 text-center">
           Did you know that 2 out of 5 people lie about liking a gift?
         </h1>
-        <p className="text-sm md:text-base text-center mx-auto px-2 md:px-6">
+        <p className="text-xl md:text-base text-center mx-auto px-2 md:px-6">
           Every year 20 billion worth of unwanted gifts clutter our houses...
           and our planet. Over 30% of gift cards that we give to each other -
           never get redeemed. As they expire or get lost in our kitchen drawers,
