@@ -3,6 +3,7 @@ import About from "../components/about";
 import MidSection from "../components/mid-section";
 import CenterBanner from "../components/center-banner";
 import Question from "@/components/question";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <MidSection />
       <CenterBanner />
       <Question />
+      <Footer />
     </div>
   );
 }
